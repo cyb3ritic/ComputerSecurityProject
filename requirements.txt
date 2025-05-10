@@ -1,0 +1,26 @@
+# Core dependencies
+termcolor>=2.3.0
+pyreadline3>=3.4.1  # Added for tab-completion on Windows
+pytz>=2023.3        # Added for timezone handling in logger
+
+# Network and Security
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+selenium>=4.8.0
+reportlab>=3.6.12
+
+# Potentially unused (review if needed)
+# prompt_toolkit>=3.0.0  # Not used in current code
+# colorama>=0.4.6       # Not used (termcolor handles colors)
+# python-nmap>=0.7.1    # Not used unless port_scanner.py needs it
+# urllib3>=2.0.0        # Not used directly (requests dependency)
+# python-json-logger>=2.0.7  # Not used (using standard logging)
+# jinja2>=3.1.0         # Not used (no templating)
+# pyyaml>=6.0.1         # Not used (no YAML parsing)
+# tqdm>=4.65.0          # Not used (no progress bars)
+
+# Testing and Development (optional, can move to dev-requirements.txt)
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.1.0
+mypy>=1.5.0
