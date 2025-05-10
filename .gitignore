@@ -1,0 +1,33 @@
+# Logs
+logs/*
+
+# Test files
+tests/
+
+# Python bytecode and cache
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+myenv
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# IDE files
+.idea/
+.vscode/
+
+# Miscellaneous
+*.swp
+*.bak
+*.tmp
