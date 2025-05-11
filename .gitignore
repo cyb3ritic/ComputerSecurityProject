@@ -6,6 +6,8 @@ tests/
 
 # Python bytecode and cache
 **/__pycache__/
+core/__pycache__/
+modules/__pycache__/
 *.pyc
 *.pyo
 *.pyd
