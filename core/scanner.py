@@ -2,6 +2,7 @@ import json
 import subprocess
 from typing import Dict, List, Optional, Tuple
 from termcolor import colored
+from rich.console import Console
 
 class BaseScanner:
     """Base class for all scanner modules"""
@@ -11,6 +12,7 @@ class BaseScanner:
         self.required_options = []
         self.scan_results = {}
         self.scan_types = {}
+        self.console = Console()
     
     def validate_options(self) -> Tuple[bool, str]:
         """Validate scanner options"""
